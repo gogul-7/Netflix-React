@@ -1,0 +1,19 @@
+.navBar{
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    position: fixed;
+    z-index: 1;
+    background: none;
+}
+.navBar_scroll{
+    background: black;
+    width: 100%;
+    height: 50px;
+    padding: 8px;
+    position: fixed;
+    z-index: 1;
+}
+.netLogo{
+    height: 45px;
+}

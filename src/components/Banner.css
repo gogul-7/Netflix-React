@@ -1,0 +1,28 @@
+.topBanner{
+    height: 500px;
+    background-position-y: -60px;
+    background-size: cover;
+    object-fit: contain;
+    position: relative;
+    transition: transform .2s;
+}
+.topBanner:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+.movie_content{
+    position: absolute;
+    bottom: 5px;
+    margin-left: 40px;
+}
+.movie_title{
+    font-size: 35px;
+    font-family: inherit;
+    font-weight: lighter;
+    margin-bottom: -10px;
+}
+.movie_desc{
+    font-family: inherit;
+    font-weight: lighter;
+    width: 70%;
+}
